@@ -2,3 +2,121 @@ h1 {
   color: purple;
   text-align: center;
 }
+html, body {
+    height:100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-image: url('../Image/Background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+  .Container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+#Heading {
+   text-align: center;
+   font-family:'Protest Guerrilla';
+   margin: 20px;
+ }
+
+  .box {
+    background-color: rgba(128, 128, 128, 0.522);
+    color: white;
+    width: 28%;
+    border: 2px solid black;
+    margin: 1%;
+    position: relative;
+    display: inline-block;
+    font-family:monospace;
+    padding: 1%;
+  }
+
+ .box2 {
+    color: rgb(5, 5, 45);
+    position:absolute;
+    top: 0;
+    right: 0;
+    height: 15%;
+    width: 50%;
+    margin-bottom: 2%;
+    font-family:cursive;
+  }
+  #title3
+  {
+    background-color: rgba(116, 121, 171, 0.832);
+  }
+  #title2
+  {
+    background-color: rgba(99, 118, 179, 0.782);
+  }
+  #title1
+  {
+    background-color: rgba(133, 163, 208, 0.76);
+  }
+  h3 {
+    margin: 0;
+  }
+  hr {
+    background-color: black;
+    height: 2px;
+    margin-bottom: 10%;
+  }
+
+  p  {
+    text-align: left;
+    padding: 2%;
+  }
+
+@media (min-width: 992px)
+        {
+            .box
+            {
+             width: 28%;
+            }
+            .box2 {
+                height: 15%;
+                width: 50%;
+            }
+        }
+@media (min-width: 768px) and (max-width: 991px)
+        {
+            #box1, #box2
+            {
+             width: 40%;
+            }
+            #box3
+            {
+                width: 82%;
+            }
+            .box2 {
+                height: 18%;
+                width: 50%;
+            }
+            hr
+            {
+                margin: auto;
+            }
+        }
+@media (max-width: 767px)
+        {
+            .box
+            {
+             width: 90%;
+            }
+            .box2 {
+                height: 20%;
+                width: 50%;
+            }
+        }
