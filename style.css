@@ -30,7 +30,7 @@ body {
  }
 
   .box {
-    background-color: rgba(128, 128, 128, 0.522);
+    background-color: gray;
     color: white;
     width: 28%;
     border: 2px solid black;
@@ -42,7 +42,7 @@ body {
   }
 
  .box2 {
-    color: rgb(5, 5, 45);
+    color: yellow;
     position:absolute;
     top: 0;
     right: 0;
@@ -53,15 +53,15 @@ body {
   }
   #title3
   {
-    background-color: rgba(116, 121, 171, 0.832);
+    background-color: red;
   }
   #title2
   {
-    background-color: rgba(99, 118, 179, 0.782);
+    background-color: green;
   }
   #title1
   {
-    background-color: rgba(133, 163, 208, 0.76);
+    background-color: orange;
   }
   h3 {
     margin: 0;
