@@ -9,9 +9,7 @@ html, body {
 }
 
 body {
-  background-image: url('../Image/Background.jpg');
-  background-size: cover;
-  background-position: center;
+  background-color: blue;
 }
 
 *{
